@@ -15,8 +15,9 @@ public class Main {
         try {
             SequenciaNumeros sn = new SequenciaNumeros(str);
             System.out.println(str);
-            System.out.println("O maior número é: " + sn.maiorNumero());
-            System.out.println("A Soma dos valores é: " + sn.somaValores());
+            System.out.println("O maior número é: " + sn.getMaior());
+            System.out.println("O menor número é: " + sn.getMenor());
+            System.out.println("A Soma dos valores é: " + sn.getSoma());
             System.out.println();
         }catch (NumberFormatException e){
             System.out.println("Lista de números inválida!");
