@@ -1,5 +1,9 @@
 package me.dio.gft.funcionarios;
 
+import me.dio.gft.funcionarios.entidades.Gerente;
+import me.dio.gft.funcionarios.entidades.Supervisor;
+import me.dio.gft.funcionarios.entidades.Vendedor;
+
 public class Main {
     public static void main(String[] args) {
 

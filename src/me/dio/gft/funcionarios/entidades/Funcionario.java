@@ -1,4 +1,4 @@
-package me.dio.gft.funcionarios;
+package me.dio.gft.funcionarios.entidades;
 
 public abstract class Funcionario {
     protected String nome;

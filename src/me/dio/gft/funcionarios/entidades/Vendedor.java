@@ -1,7 +1,8 @@
-package me.dio.gft.funcionarios;
+package me.dio.gft.funcionarios.entidades;
+
+import me.dio.gft.funcionarios.Bonificacao;
 
 public class Vendedor extends Funcionario {
-    private static double bonificacao = 3000.0;
 
     public Vendedor(String nome, double salario, int idade) {
         super(nome, salario, idade);
@@ -9,7 +10,7 @@ public class Vendedor extends Funcionario {
 
     @Override
     public double bonificacao() {
-        return this.salario + this.bonificacao;
+        return this.salario + Bonificacao.VENDEDOR.getBonus();
     }
 
     @Override
